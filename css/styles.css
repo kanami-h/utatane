@@ -136,9 +136,9 @@ a {
 
 /* top */
 .top {
-    background-image: url(../images/sleeping-cat.jpg);
-    background-size: cover;
-    height: 700px;
+    /* background-image: url(../images/sleeping-cat.jpg);
+    background-size: cover; */
+    height: 300px;
 }
 
 .caption {
@@ -1550,14 +1550,14 @@ a {
 
 /* top */
 .top {
-    background-image: url(../images/sleeping-cat.jpg);
-    background-size: cover;
-    height: 700px;
+    /* background-image: url(../images/sleeping-cat.jpg);
+    background-size: cover; */
+    height: 300px;
 }
 
 .caption {
     position: relative;
-    top: 400px;
+    top: 150px;
     left: 15px;
     font-family: 'Yumincho';
     font-size: 21px;
