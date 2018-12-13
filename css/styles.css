@@ -647,7 +647,7 @@ a {
         display: none;
     }
     .top {
-        height: 500px;
+        height: 200px;
         background-position: 50% 50%;
     }
 
@@ -655,6 +655,9 @@ a {
         height: 100px;
         padding: 20px 0;
         position: relative;
+        position: fixed;
+        z-index: 10000;
+        opacity: 0.8;
     }
 
     .logo {
@@ -665,7 +668,7 @@ a {
     }
 
     .caption {
-        top: 400px;
+        top: 200px;
         font-size: 16px;
     }
 
@@ -888,11 +891,11 @@ a {
 
 @media(min-width: 768px) {
     .top {
-        height: 600px;
+        height: 300px;
     }
     .caption {
-        top: 350px;
-        font-size: 22px;
+        top: 200px;
+        font-size: 24px;
     }
 
     .title img {
@@ -932,7 +935,6 @@ a {
     .saying_1 {
         top: 0;
         width: 60%;
-        opacity: 0.9;
     }
 
     .saying_2 {
@@ -1135,7 +1137,7 @@ a {
 
 @media(min-width: 1024px) {
     .caption {
-        top: 300px;
+        top: 150px;
     }
 
     /* CONCEPT */
